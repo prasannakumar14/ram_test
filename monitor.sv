@@ -6,4 +6,7 @@ class monitor extends uvm_monitor;
 	function void build_phase(uvm_phase phase);
 	    super.build_phase(phase);
 	endfunction
+
+	function void connect phase(uvm_phase phase);
+	endfunction
 endclass
