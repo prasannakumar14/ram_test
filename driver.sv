@@ -7,4 +7,8 @@ class driver extends uvm_driver;
 	  super.build_phase(phase);
 	endfunction
 
+    function void connect_phase(uvm_phase phase);
+	   super.connect_phase(phase);
+	endfunction
+	
 endclass
